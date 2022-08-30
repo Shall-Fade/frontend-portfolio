@@ -3,7 +3,7 @@
     <div class="flex items-center justify-between">
       <div class="max-w-[415px]">
         <h1
-          class="font-bold text-[36px] leading-[54px] text-black pb-[24px] dark:text-white"
+          class="font-bold text-[36px] leading-[54px] text-black pb-[15px] dark:text-white"
         >
           Hello! I am Marat.
           <span
@@ -16,6 +16,28 @@
             >Designer</span
           >
         </h1>
+        <ul class="flex items-center pb-[27px]">
+          <li class="w-[25px] h-[25px] mr-[15px]">
+            <a target="_blank" href="https://t.me/another_rn"
+              ><img src="../../assets/icons/telegram-icon.svg" alt="Telegram"
+            /></a>
+          </li>
+          <li class="w-[25px] h-[25px] mr-[15px]">
+            <a target="_blank" href="https://vk.com/0another0"
+              ><img src="../../assets/icons/vk-icon.svg" alt="VKontakte"
+            /></a>
+          </li>
+          <li class="w-[25px] h-[25px] mr-[15px]">
+            <a target="_blank" href="https://github.com/Shall-Fade"
+              ><img src="../../assets/icons/github-icon.svg" alt="GitHub"
+            /></a>
+          </li>
+          <li class="w-[25px] h-[25px]">
+            <a target="_blank" href="https://www.instagram.com/marat.chochaev/"
+              ><img src="../../assets/icons/instagram-icon.svg" alt="Instagram"
+            /></a>
+          </li>
+        </ul>
         <p
           class="font-normal leading-[24px] text-dark-grey dark:text-light-grey pb-[24px]"
         >
@@ -25,7 +47,7 @@
         </p>
         <router-link
           to="/portfolio"
-          class="inline-flex items-center cursor-pointer px-[28px] py-[12px] bg-black text-white dark:bg-light-grey dark:text-black rounded-[4px]"
+          class="inline-flex items-center cursor-pointer px-[28px] py-[12px] bg-black text-white dark:bg-light-grey dark:text-black rounded-[4px] hover:shadow-md hover:shadow-dark-grey hover:dark:shadow-light-grey"
         >
           <p class="pr-[8px] font-normal leading-[24px]">View Portfolio</p>
           <img

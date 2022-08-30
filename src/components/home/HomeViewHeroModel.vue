@@ -16,7 +16,7 @@
       <Scene>
         <AmbientLight></AmbientLight>
         <GltfModel
-          src="../../../src/assets/models/computer-terrarium/scene.gltf"
+          src="../../../../src/assets/models/computer-terrarium/scene.gltf"
         />
       </Scene>
     </Renderer>
